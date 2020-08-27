@@ -8,15 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jfinal_framework" />
+        <module name="jfinal_rook" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jfinal_framework" target="1.8" />
+      <module name="jfinal_rook" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="jfinal_framework" options="-verbose -parameters" />
+      <module name="jfinal_rook" options="-verbose -parameters" />
     </option>
   </component>
 </project>

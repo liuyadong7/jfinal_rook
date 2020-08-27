@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jfinal_framework.iml" filepath="$PROJECT_DIR$/jfinal_framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jfinal_rook.iml" filepath="$PROJECT_DIR$/jfinal_rook.iml" />
     </modules>
   </component>
 </project>

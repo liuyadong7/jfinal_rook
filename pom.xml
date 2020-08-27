@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.demo</groupId>
-    <artifactId>jfinal_framework</artifactId>
-    <version>4.8</version>
+    <groupId>com.liuyadong</groupId>
+    <artifactId>jfinal_rook</artifactId>
+    <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>jfinal_framework</name>
+    <name>jfinal_rook</name>
 
     <url>http://jfinal.com/user/1</url>
 
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>com.jfinal</groupId>
             <artifactId>jfinal</artifactId>
-            <version>4.8</version>
+            <version>4.9</version>
         </dependency>
 
         <!-- jfinal-undertow 开发、部署一体化 web 服务器 -->

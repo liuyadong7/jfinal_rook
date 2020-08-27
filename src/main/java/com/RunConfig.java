@@ -14,7 +14,7 @@ import live.autu.plugin.jfinal.swagger.config.SwaggerPlugin;
 import org.apache.log4j.Logger;
 
 /**
- * jfinal_framework的启动类
+ * jfinal_rook的启动类
  * <p>
  * API 引导式配置
  *

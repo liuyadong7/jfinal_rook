@@ -2,252 +2,491 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc94d94-25fc-44a1-8310-1feea5ea294d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfinal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_demo_for_maven.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_framework.log_2020-03-11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_framework.log_2020-03-27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_framework.log_2020-04-02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_framework.log_2020-04-03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/jfinal_framework.log_2020-05-16.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom_bf1.xml.xx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom_intial.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/RunConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java.xxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/base/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/base/BaseMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/base/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/constant/ConstantCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/constant/ConstantInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/constant/RexExp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/dto/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/dto/SplitPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/enums/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/plugin/ControllerPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/tools/ToolClassSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/tools/ToolDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/tools/ToolDirFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/common/tools/ToolString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/framework/aspectj/annotation/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/framework/aspectj/annotation/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/framework/config/mapping/UserAdminMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/framework/config/routes/UserAdminRoutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/project/mvc/blog/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/project/mvc/blog/BlogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/project/mvc/blog/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/project/mvc/blog/BlogValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/useradmin/project/system/syslog/Syslog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/demo-config-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/init.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jfinal-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jfinal-pro.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jfinal.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/demo/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/swagger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/swagger/oauth2-redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-ie.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-part2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-colorpicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-duallistbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-editable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-multiselect.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-timepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/chosen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/colorbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/daterangepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/fonts.googleapis.com.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/meteorshower2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/pattern.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery-ui.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery.gritter.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/prettify.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ui.jqgrid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email/email1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email/email2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email/email3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email/email4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/placeholder/165x90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/placeholder/255x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/placeholder/530x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/placeholder/550x280.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-elements.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-extra.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/autosize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-multiselect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-tag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/buttons.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/buttons.flash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/buttons.html5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/buttons.print.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/chosen.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dataTables.buttons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dataTables.select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/daterangepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/html5shiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-2.1.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-typeahead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-ui.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.colorbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.easypiechart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.hotkeys.index.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.inputlimiter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.knob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.maskedinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.nestable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.raty.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.sparkline.index.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/prettify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/spin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/spinbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/swf/flashExport.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/oauth2-redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/swagger-ui-bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/swagger-ui-bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/swagger-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/swagger-ui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/swagger-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/swagger/swagger-ui.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/wp/view/blog/_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/wp/view/blog/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/wp/view/blog/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/wp/view/blog/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/wp/view/demo/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/streams/CollectingResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/streams/CountLongWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/streams/CreatingStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/streams/OptionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jfinal_rook_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jfinal_rook_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jfinal_rook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jfinal_framework_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/jfinal_framework_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jfinal_framework_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/jfinal_framework_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_cos_2019_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_cos_2019_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_4_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_undertow_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_2_0_28_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_2_0_28_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfinal_jfinal_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__live_autu_jfinal_swagger_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__live_autu_jfinal_swagger_1_0_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_3_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_3_8_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_29.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfinal_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jfinal_framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/blog/BlogValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/common/DemoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/common/model/_JFinalDemoGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/common/model/_JFinalDemoGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/index/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/index/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/demo-config-dev.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RunConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RunConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jfinal-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jfinal-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/manage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets2/css/manage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/img/bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets2/img/bg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/img/left2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets2/img/left2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/img/right2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets2/img/right2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-1.4.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets2/js/jquery-1.4.4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog/_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog/_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/blog/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/wp/common/_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/_paginate.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/wp/common/_paginate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/wp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/启动说明/fatjar-打包部署方法/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/启动说明/fatjar-打包部署方法/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rebel-remote.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jfinal-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jfinal-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rebel-remote.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/RunConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/blog/BlogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/blog/BlogInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/blog/BlogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/blog/BlogValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/common/DemoConfig12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/common/model/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/common/model/_JFinalDemoGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/common/model/_MappingKit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/common/model/base/BaseBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/demo/index/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/base/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/base/BaseMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/base/BaseModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/constant/ConstantCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/constant/ConstantInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/constant/RexExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/dto/DataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/dto/SplitPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/enums/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/plugin/ControllerPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/tools/ToolClassSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/tools/ToolDataBase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/tools/ToolDataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/tools/ToolDirFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/common/tools/ToolString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/framework/aspectj/annotation/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/framework/aspectj/annotation/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/framework/config/mapping/UserAdminMapping$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/framework/config/mapping/UserAdminMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/framework/config/routes/UserAdminRoutes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/project/mvc/blog/BlogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/project/mvc/blog/BlogInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/project/mvc/blog/BlogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/project/mvc/blog/BlogValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/com/useradmin/project/system/syslog/Syslog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/demo-config-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/demo.pfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/init.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/jfinal-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/jfinal-pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/jfinal.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/rebel-remote.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/classes/undertow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/cos-2019.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/druid-1.0.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/jfinal-4.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/jfinal-swagger-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/lombok-1.16.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/mysql-connector-java-5.1.44.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/slf4j-api-1.7.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/lib/slf4j-nop-1.7.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/view/blog/_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/view/blog/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/view/blog/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/view/blog/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/view/demo/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/view/swagger/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/view/swagger/oauth2-redirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/ace-ie.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/ace-part2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/ace-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/ace-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/ace.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/bootstrap-colorpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/bootstrap-datepicker3.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/bootstrap-datetimepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/bootstrap-duallistbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/bootstrap-editable.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/bootstrap-multiselect.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/bootstrap-timepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/chosen.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/colorbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/daterangepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/dropzone.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/fonts.googleapis.com.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/images/meteorshower2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/images/pattern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/jquery-ui.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/jquery.gritter.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/prettify.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/css/ui.jqgrid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/font-awesome/4.5.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/avatars/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/avatars/avatar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/avatars/avatar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/avatars/avatar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/avatars/avatar4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/avatars/avatar5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/avatars/profile-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/avatars/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/email/email1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/email/email2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/email/email3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/email/email4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/gallery/thumb-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/placeholder/165x90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/placeholder/255x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/placeholder/530x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/images/placeholder/550x280.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/ace-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/ace-elements.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/ace-extra.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/ace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/autosize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap-markdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap-multiselect.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap-tag.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap-timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap-wysiwyg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/buttons.colVis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/buttons.flash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/buttons.html5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/buttons.print.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/chosen.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/dataTables.buttons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/dataTables.select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/daterangepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/dropzone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/grid.locale-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/holder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery-additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery-typeahead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery-ui.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.bootstrap-duallistbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.colorbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.easypiechart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.flot.resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.gritter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.hotkeys.index.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.inputlimiter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.knob.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.maskedinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.mobile.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.nestable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.raty.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.sparkline.index.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.ui.touch-punch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/markdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/prettify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/spin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/spinbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/tree.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/js/wizard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets/swf/flashExport.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets2/css/manage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets2/img/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets2/img/left2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets2/img/right2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/assets2/js/jquery-1.4.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/oauth2-redirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/swagger-ui-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/swagger-ui-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/swagger-ui-standalone-preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/swagger-ui-standalone-preset.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/swagger-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/swagger-ui.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/swagger-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/static/swagger/swagger-ui.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/wp/common/_layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/wp/common/_paginate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/wp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/wp/view/blog/_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/wp/view/blog/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/wp/view/blog/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/wp/view/blog/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-4.8/wp/view/demo/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/demo-config-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/demo.pfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/init.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/jfinal-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/jfinal-pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/jfinal.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/rebel-remote.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/config/undertow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/jfinal.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/jfinal.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/cos-2019.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/druid-1.0.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/jfinal-4.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/jfinal-swagger-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/jfinal_framework-4.8.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/lombok-1.16.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/mysql-connector-java-5.1.44.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/slf4j-api-1.7.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/lib/slf4j-nop-1.7.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/start.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/WEB-INF/view/blog/_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/WEB-INF/view/blog/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/WEB-INF/view/blog/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/WEB-INF/view/blog/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/WEB-INF/view/demo/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/WEB-INF/view/swagger/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/WEB-INF/view/swagger/oauth2-redirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/ace-ie.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/ace-part2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/ace-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/ace-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/ace.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/bootstrap-colorpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/bootstrap-datepicker3.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/bootstrap-datetimepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/bootstrap-duallistbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/bootstrap-editable.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/bootstrap-multiselect.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/bootstrap-timepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/chosen.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/colorbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/daterangepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/dropzone.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/fonts.googleapis.com.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/images/meteorshower2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/images/pattern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/jquery-ui.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/jquery.gritter.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/prettify.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/css/ui.jqgrid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/font-awesome/4.5.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/avatars/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/avatars/avatar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/avatars/avatar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/avatars/avatar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/avatars/avatar4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/avatars/avatar5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/avatars/profile-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/avatars/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/email/email1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/email/email2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/email/email3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/email/email4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/gallery/thumb-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/placeholder/165x90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/placeholder/255x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/placeholder/530x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/images/placeholder/550x280.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/ace-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/ace-elements.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/ace-extra.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/ace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/autosize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap-markdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap-multiselect.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap-tag.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap-timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap-wysiwyg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/buttons.colVis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/buttons.flash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/buttons.html5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/buttons.print.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/chosen.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/dataTables.buttons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/dataTables.select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/daterangepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/dropzone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/grid.locale-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/holder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery-additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery-typeahead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery-ui.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.bootstrap-duallistbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.colorbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.easypiechart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.flot.resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.gritter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.hotkeys.index.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.inputlimiter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.knob.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.maskedinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.mobile.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.nestable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.raty.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.sparkline.index.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.ui.touch-punch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/markdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/prettify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/spin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/spinbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/tree.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/js/wizard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets/swf/flashExport.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets2/css/manage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets2/img/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets2/img/left2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets2/img/right2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/assets2/js/jquery-1.4.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/oauth2-redirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/swagger-ui-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/swagger-ui-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/swagger-ui-standalone-preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/swagger-ui-standalone-preset.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/swagger-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/swagger-ui.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/swagger-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/static/swagger/swagger-ui.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/wp/common/_layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/wp/common/_paginate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/wp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/wp/view/blog/_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/wp/view/blog/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/wp/view/blog/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/wp/view/blog/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jfinal_framework-release/jfinal_framework/webapp/wp/view/demo/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-core.streams.OptionalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/core.streams.OptionalTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/core/streams/CollectingResults.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/core/streams/CountLongWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/core/streams/CreatingStreams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/core/streams/OptionalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-08-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/启动说明/___极速打包部署.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/启动说明/blog.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/启动说明/fatjar-打包部署方法/fatjar-打包部署方法.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/启动说明/fatjar-打包部署方法/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/启动说明/undertow-config-demo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/启动说明/启动说明.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,9 +499,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\repository" />
-        <option name="mavenHome" value="C:/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="C:\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="C:\maven\maven-repository" />
+        <option name="mavenHome" value="C:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -274,10 +513,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35287356" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -290,6 +537,151 @@
       <expand />
       <select />
     </treeState>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunApplication" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_jfinal_demo_for_maven" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54515" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="54516" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -315,6 +707,9 @@
       <updated>1592446701851</updated>
       <workItem from="1592446703334" duration="193000" />
       <workItem from="1598423494459" duration="493000" />
+      <workItem from="1598540131199" duration="472000" />
+      <workItem from="1598540617307" duration="891000" />
+      <workItem from="1598541526204" duration="2287000" />
     </task>
     <servers />
   </component>
@@ -325,29 +720,71 @@
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="719" y="216" key="FileChooserDialogImpl" timestamp="1598423574276">
+    <state x="414" y="175" width="1092" height="779" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598543678526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="414" y="175" width="1092" height="779" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543678526" />
+    <state x="542" y="113" key="CommitChangelistDialog2" timestamp="1598544291968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="542" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598544291968" />
+    <state x="184" y="95" key="DiffContextDialog" timestamp="1598544266850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="95" key="DiffContextDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598544266850" />
+    <state x="719" y="216" key="FileChooserDialogImpl" timestamp="1598542701132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598542701132" />
     <state x="719" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598423574276" />
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1598423992487">
+    <state width="1860" height="342" key="GridCell.Tab.0.bottom" timestamp="1598543680317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543680317" />
     <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598423992487" />
-    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1598423992487">
+    <state width="1860" height="342" key="GridCell.Tab.0.center" timestamp="1598543680317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="342" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543680317" />
     <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598423992487" />
-    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1598423992487">
+    <state width="1860" height="342" key="GridCell.Tab.0.left" timestamp="1598543680317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="342" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543680317" />
     <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598423992487" />
-    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1598423992487">
+    <state width="1860" height="342" key="GridCell.Tab.0.right" timestamp="1598543680317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="342" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543680317" />
     <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598423992487" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1598423629180">
+    <state width="1860" height="342" key="GridCell.Tab.1.bottom" timestamp="1598543680130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543680130" />
+    <state width="1860" height="342" key="GridCell.Tab.1.center" timestamp="1598543680130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="342" key="GridCell.Tab.1.center/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543680130" />
+    <state width="1860" height="342" key="GridCell.Tab.1.left" timestamp="1598543680130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="342" key="GridCell.Tab.1.left/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543680130" />
+    <state width="1860" height="342" key="GridCell.Tab.1.right" timestamp="1598543680130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="342" key="GridCell.Tab.1.right/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543680130" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1598541546038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598541546038" />
     <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598423629180" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1598541529621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598541529621" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1598543810825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1598543810825" />
   </component>
 </project>
